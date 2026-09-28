@@ -1,0 +1,152 @@
+{
+  "tc01": {
+    "bank_name": "JPMorgan Chase Bank, N.A.",
+    "account_number": "************4921",
+    "statement_period_start": "2026-08-01",
+    "statement_period_end": "2026-08-31",
+    "starting_balance": "3450.00",
+    "ending_balance": "6141.81",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc02": {
+    "bank_name": "Bank of America, N.A.",
+    "account_number": "************7119",
+    "statement_period_start": "2026-07-01",
+    "statement_period_end": "2026-07-31",
+    "starting_balance": "12500.00",
+    "ending_balance": "18362.70",
+    "currency": "USD",
+    "page_count": 3
+  },
+  "tc03": {
+    "bank_name": "Wells Fargo Bank, N.A.",
+    "account_number": "************3302",
+    "statement_period_start": "2026-09-01",
+    "statement_period_end": "2026-09-30",
+    "starting_balance": "5600.25",
+    "ending_balance": "9794.75",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc04": {
+    "bank_name": "Capital One 360 Checking",
+    "account_number": "************9914",
+    "statement_period_start": "2026-06-01",
+    "statement_period_end": "2026-06-30",
+    "starting_balance": "1890.50",
+    "ending_balance": "1760.25",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc05": {
+    "bank_name": "Navy Federal Credit Union",
+    "account_number": "************6631",
+    "statement_period_start": "2026-05-01",
+    "statement_period_end": "2026-05-31",
+    "starting_balance": "4120.00",
+    "ending_balance": "6124.80",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc06": {
+    "bank_name": "Citibank Personal Banking",
+    "account_number": "************5510",
+    "statement_period_start": "2026-04-01",
+    "statement_period_end": "2026-04-30",
+    "starting_balance": "2200.00",
+    "ending_balance": "4261.51",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc07": {
+    "bank_name": "Barclays Bank UK",
+    "account_number": "************8821",
+    "statement_period_start": "2026-03-01",
+    "statement_period_end": "2026-03-31",
+    "starting_balance": "1500.00",
+    "ending_balance": "3373.60",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc08": {
+    "bank_name": "BNP Paribas France",
+    "account_number": "FR7630006000011234567890189",
+    "statement_period_start": "2026-02-01",
+    "statement_period_end": "2026-02-28",
+    "starting_balance": "4500.00",
+    "ending_balance": "7485.40",
+    "currency": "EUR",
+    "page_count": 1
+  },
+  "tc09": {
+    "bank_name": "TD Bank Commercial",
+    "account_number": "************4419",
+    "statement_period_start": "2026-01-01",
+    "statement_period_end": "2026-01-31",
+    "starting_balance": "3000.00",
+    "ending_balance": "4269.75",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc10": {
+    "bank_name": "PNC Bank Business",
+    "account_number": "************1190",
+    "statement_period_start": "2026-09-01",
+    "statement_period_end": "2026-09-30",
+    "starting_balance": "8000.00",
+    "ending_balance": "10355.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc11": {
+    "bank_name": "U.S. Bank Retail",
+    "account_number": "************6720",
+    "statement_period_start": "2026-08-01",
+    "statement_period_end": "2026-08-31",
+    "starting_balance": "2500.00",
+    "ending_balance": "3675.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc12": {
+    "bank_name": "Fifth Third Bank",
+    "account_number": "************8801",
+    "statement_period_start": "2026-07-01",
+    "statement_period_end": "2026-07-31",
+    "starting_balance": "50.00",
+    "ending_balance": "380.80",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc13": {
+    "bank_name": "Silicon Valley Commercial",
+    "account_number": "************9090",
+    "statement_period_start": "2026-05-01",
+    "statement_period_end": "2026-05-31",
+    "starting_balance": "10000.00",
+    "ending_balance": "14500.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc14": {
+    "bank_name": "Global Corporate Treasury Bank",
+    "account_number": "************7777",
+    "statement_period_start": "2026-04-01",
+    "statement_period_end": "2026-04-30",
+    "starting_balance": "500000000.00",
+    "ending_balance": "624999999.50",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "tc15": {
+    "bank_name": "Federal Reserve Credit Union",
+    "account_number": "************2929",
+    "statement_period_start": "2028-02-01",
+    "statement_period_end": "2028-02-29",
+    "starting_balance": "3500.00",
+    "ending_balance": "4415.00",
+    "currency": "USD",
+    "page_count": 1
+  }
+}

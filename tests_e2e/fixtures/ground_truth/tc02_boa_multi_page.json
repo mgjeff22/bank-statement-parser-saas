@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "bank_name": "Bank of America, N.A.",
+    "account_number": "************7119",
+    "statement_period_start": "2026-07-01",
+    "statement_period_end": "2026-07-31",
+    "starting_balance": "12500.00",
+    "ending_balance": "18362.70",
+    "currency": "USD",
+    "page_count": 3
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-07-01",
+      "payee": "Client Wire Payment #100",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "13750.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-07-02",
+      "payee": "Office Depot & Supplies #11",
+      "type": "debit",
+      "amount": "47.60",
+      "category": "Shopping & Retail",
+      "running_balance": "13702.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-07-03",
+      "payee": "Office Depot & Supplies #12",
+      "type": "debit",
+      "amount": "49.70",
+      "category": "Shopping & Retail",
+      "running_balance": "13652.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_004",
+      "date": "2026-07-04",
+      "payee": "Office Depot & Supplies #13",
+      "type": "debit",
+      "amount": "51.80",
+      "category": "Shopping & Retail",
+      "running_balance": "13600.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_005",
+      "date": "2026-07-05",
+      "payee": "Office Depot & Supplies #14",
+      "type": "debit",
+      "amount": "53.90",
+      "category": "Shopping & Retail",
+      "running_balance": "13547.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_006",
+      "date": "2026-07-06",
+      "payee": "Client Wire Payment #105",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "14797.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_007",
+      "date": "2026-07-07",
+      "payee": "Office Depot & Supplies #16",
+      "type": "debit",
+      "amount": "58.10",
+      "category": "Shopping & Retail",
+      "running_balance": "14738.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_008",
+      "date": "2026-07-08",
+      "payee": "Office Depot & Supplies #17",
+      "type": "debit",
+      "amount": "60.20",
+      "category": "Shopping & Retail",
+      "running_balance": "14678.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_009",
+      "date": "2026-07-09",
+      "payee": "Office Depot & Supplies #18",
+      "type": "debit",
+      "amount": "62.30",
+      "category": "Shopping & Retail",
+      "running_balance": "14616.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_010",
+      "date": "2026-07-10",
+      "payee": "Office Depot & Supplies #19",
+      "type": "debit",
+      "amount": "64.40",
+      "category": "Shopping & Retail",
+      "running_balance": "14552.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_011",
+      "date": "2026-07-11",
+      "payee": "Client Wire Payment #110",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "15802.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_012",
+      "date": "2026-07-12",
+      "payee": "Office Depot & Supplies #21",
+      "type": "debit",
+      "amount": "68.60",
+      "category": "Shopping & Retail",
+      "running_balance": "15733.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_013",
+      "date": "2026-07-13",
+      "payee": "Office Depot & Supplies #22",
+      "type": "debit",
+      "amount": "70.70",
+      "category": "Shopping & Retail",
+      "running_balance": "15662.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_014",
+      "date": "2026-07-14",
+      "payee": "Office Depot & Supplies #23",
+      "type": "debit",
+      "amount": "72.80",
+      "category": "Shopping & Retail",
+      "running_balance": "15589.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_015",
+      "date": "2026-07-15",
+      "payee": "Office Depot & Supplies #24",
+      "type": "debit",
+      "amount": "74.90",
+      "category": "Shopping & Retail",
+      "running_balance": "15515.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_016",
+      "date": "2026-07-16",
+      "payee": "Client Wire Payment #115",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "16765.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_017",
+      "date": "2026-07-17",
+      "payee": "Office Depot & Supplies #26",
+      "type": "debit",
+      "amount": "79.10",
+      "category": "Shopping & Retail",
+      "running_balance": "16685.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_018",
+      "date": "2026-07-18",
+      "payee": "Office Depot & Supplies #27",
+      "type": "debit",
+      "amount": "81.20",
+      "category": "Shopping & Retail",
+      "running_balance": "16604.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_019",
+      "date": "2026-07-19",
+      "payee": "Office Depot & Supplies #28",
+      "type": "debit",
+      "amount": "83.30",
+      "category": "Shopping & Retail",
+      "running_balance": "16521.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_020",
+      "date": "2026-07-20",
+      "payee": "Office Depot & Supplies #29",
+      "type": "debit",
+      "amount": "85.40",
+      "category": "Shopping & Retail",
+      "running_balance": "16436.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_021",
+      "date": "2026-07-21",
+      "payee": "Client Wire Payment #120",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "17686.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_022",
+      "date": "2026-07-22",
+      "payee": "Office Depot & Supplies #31",
+      "type": "debit",
+      "amount": "89.60",
+      "category": "Shopping & Retail",
+      "running_balance": "17596.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_023",
+      "date": "2026-07-23",
+      "payee": "Office Depot & Supplies #32",
+      "type": "debit",
+      "amount": "91.70",
+      "category": "Shopping & Retail",
+      "running_balance": "17504.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_024",
+      "date": "2026-07-24",
+      "payee": "Office Depot & Supplies #33",
+      "type": "debit",
+      "amount": "93.80",
+      "category": "Shopping & Retail",
+      "running_balance": "17410.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_025",
+      "date": "2026-07-25",
+      "payee": "Office Depot & Supplies #34",
+      "type": "debit",
+      "amount": "95.90",
+      "category": "Shopping & Retail",
+      "running_balance": "17315.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_026",
+      "date": "2026-07-26",
+      "payee": "Client Wire Payment #125",
+      "type": "credit",
+      "amount": "1250.00",
+      "category": "Income / Payroll",
+      "running_balance": "18565.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_027",
+      "date": "2026-07-27",
+      "payee": "Office Depot & Supplies #36",
+      "type": "debit",
+      "amount": "100.10",
+      "category": "Shopping & Retail",
+      "running_balance": "18464.90",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_028",
+      "date": "2026-07-28",
+      "payee": "Office Depot & Supplies #37",
+      "type": "debit",
+      "amount": "102.20",
+      "category": "Shopping & Retail",
+      "running_balance": "18362.70",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "12500.00",
+    "total_credits": "7500.00",
+    "total_debits": "1637.30",
+    "net_cashflow": "5862.70",
+    "calculated_ending_balance": "18362.70",
+    "reported_ending_balance": "18362.70",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

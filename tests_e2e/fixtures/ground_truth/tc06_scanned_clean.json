@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "Citibank Personal Banking",
+    "account_number": "************5510",
+    "statement_period_start": "2026-04-01",
+    "statement_period_end": "2026-04-30",
+    "starting_balance": "2200.00",
+    "ending_balance": "4261.51",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-04-05",
+      "payee": "Direct Deposit Salary",
+      "type": "credit",
+      "amount": "2100.00",
+      "category": "Income / Payroll",
+      "running_balance": "4300.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-04-12",
+      "payee": "Chipotle Mexican Grill",
+      "type": "debit",
+      "amount": "18.50",
+      "category": "Dining & Food",
+      "running_balance": "4281.50",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-04-20",
+      "payee": "Netflix Subscription",
+      "type": "debit",
+      "amount": "19.99",
+      "category": "Software & Subscriptions",
+      "running_balance": "4261.51",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "2200.00",
+    "total_credits": "2100.00",
+    "total_debits": "38.49",
+    "net_cashflow": "2061.51",
+    "calculated_ending_balance": "4261.51",
+    "reported_ending_balance": "4261.51",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "png",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

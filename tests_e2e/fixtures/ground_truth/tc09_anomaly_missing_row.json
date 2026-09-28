@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "bank_name": "TD Bank Commercial",
+    "account_number": "************4419",
+    "statement_period_start": "2026-01-01",
+    "statement_period_end": "2026-01-31",
+    "starting_balance": "3000.00",
+    "ending_balance": "4269.75",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-01-05",
+      "payee": "Deposit Vendor Payment",
+      "type": "credit",
+      "amount": "1500.00",
+      "category": "Income / Payroll",
+      "running_balance": "4500.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-01-18",
+      "payee": "Office Depot Supplies",
+      "type": "debit",
+      "amount": "80.00",
+      "category": "Shopping & Retail",
+      "running_balance": "4420.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "3000.00",
+    "total_credits": "1500.00",
+    "total_debits": "80.00",
+    "net_cashflow": "1420.00",
+    "calculated_ending_balance": "4420.00",
+    "reported_ending_balance": "4269.75",
+    "discrepancy": "150.25",
+    "is_reconciled": false,
+    "diagnostic_flags": [
+      "UNRECONCILED_DISCREPANCY: net discrepancy of 150.25"
+    ]
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": "missing_row",
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

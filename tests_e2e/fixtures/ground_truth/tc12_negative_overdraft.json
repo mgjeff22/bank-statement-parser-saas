@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "Fifth Third Bank",
+    "account_number": "************8801",
+    "statement_period_start": "2026-07-01",
+    "statement_period_end": "2026-07-31",
+    "starting_balance": "50.00",
+    "ending_balance": "380.80",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-07-03",
+      "payee": "Automated Utility Withdrawal",
+      "type": "debit",
+      "amount": "134.20",
+      "category": "Utilities",
+      "running_balance": "-84.20",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-07-04",
+      "payee": "Overdraft Protection Fee",
+      "type": "debit",
+      "amount": "35.00",
+      "category": "Bank Fees",
+      "running_balance": "-119.20",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-07-08",
+      "payee": "Deposit Recovery Funds",
+      "type": "credit",
+      "amount": "500.00",
+      "category": "Income / Payroll",
+      "running_balance": "380.80",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "50.00",
+    "total_credits": "500.00",
+    "total_debits": "169.20",
+    "net_cashflow": "330.80",
+    "calculated_ending_balance": "380.80",
+    "reported_ending_balance": "380.80",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

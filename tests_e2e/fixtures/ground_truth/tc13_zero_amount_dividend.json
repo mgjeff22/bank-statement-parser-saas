@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "Silicon Valley Commercial",
+    "account_number": "************9090",
+    "statement_period_start": "2026-05-01",
+    "statement_period_end": "2026-05-31",
+    "starting_balance": "10000.00",
+    "ending_balance": "14500.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-05-02",
+      "payee": "Monthly Account Maintenance Fee",
+      "type": "debit",
+      "amount": "0.00",
+      "category": "Bank Fees",
+      "running_balance": "10000.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-05-15",
+      "payee": "Relationship Reward Credit",
+      "type": "credit",
+      "amount": "0.00",
+      "category": "Bank Fees",
+      "running_balance": "10000.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-05-20",
+      "payee": "Consulting Revenue",
+      "type": "credit",
+      "amount": "4500.00",
+      "category": "Income / Payroll",
+      "running_balance": "14500.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "10000.00",
+    "total_credits": "4500.00",
+    "total_debits": "0.00",
+    "net_cashflow": "4500.00",
+    "calculated_ending_balance": "14500.00",
+    "reported_ending_balance": "14500.00",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

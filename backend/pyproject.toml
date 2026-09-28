@@ -1,0 +1,36 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "AI Bank Statement Parser Micro-SaaS Backend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.9.0",
+    "pdfplumber>=0.11.0",
+    "pypdf>=5.0.0",
+    "pypdfium2>=4.30.0",
+    "opencv-python-headless>=4.10.0",
+    "pillow>=10.4.0",
+    "rapidocr-onnxruntime>=1.3.0",
+    "google-genai>=0.1.0",
+    "reportlab>=4.2.0",
+    "python-multipart>=0.0.9",
+    "openpyxl>=3.1.5",
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",
+    "sqlalchemy>=2.1.1",
+    "pydantic-settings>=2.15.0",
+    "bcrypt>=5.0.0",
+    "pyjwt>=2.15.1",
+    "stripe>=7.0.0",
+    "psycopg2-binary>=2.9.9",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

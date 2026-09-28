@@ -1,0 +1,52 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js Dependencies & Cache
+node_modules/
+.npm/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+*.egg-info/
+
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files with sensitive credentials
+.env
+.env.local
+.env.*.local
+!.env.production.example
+!.env.example
+
+# Local SQLite databases & uploads
+*.db
+*.sqlite
+*.sqlite3
+storage/*.db
+backend/storage/*.db
+storage/uploads/*
+backend/storage/uploads/*
+!storage/uploads/.gitkeep
+!backend/storage/uploads/.gitkeep
+
+# Multi-agent internal coordination directory
+.agents/
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "bank_name": "PNC Bank Business",
+    "account_number": "************1190",
+    "statement_period_start": "2026-09-01",
+    "statement_period_end": "2026-09-30",
+    "starting_balance": "8000.00",
+    "ending_balance": "10355.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-09-02",
+      "payee": "Client Consulting Fee",
+      "type": "credit",
+      "amount": "2500.00",
+      "category": "Income / Payroll",
+      "running_balance": "10500.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-09-08",
+      "payee": "Cloud Hosting Server AWS",
+      "type": "credit",
+      "amount": "100.00",
+      "category": "Software & Subscriptions",
+      "running_balance": "10400.00",
+      "has_anomaly": true,
+      "anomaly_type": "SIGN_INVERSION"
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-09-15",
+      "payee": "Staples Business Stationery",
+      "type": "debit",
+      "amount": "45.00",
+      "category": "Shopping & Retail",
+      "running_balance": "10355.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "8000.00",
+    "total_credits": "2600.00",
+    "total_debits": "45.00",
+    "net_cashflow": "2555.00",
+    "calculated_ending_balance": "10555.00",
+    "reported_ending_balance": "10355.00",
+    "discrepancy": "200.00",
+    "is_reconciled": false,
+    "diagnostic_flags": [
+      "RUNNING_BALANCE_MISMATCH: row tx_002 expected 10600.00 but got 10400.00",
+      "RUNNING_BALANCE_MISMATCH: row tx_003 expected 10555.00 but got 10355.00",
+      "SUSPECTED_SIGN_INVERSION: transaction tx_002 amount 100.00 matches |diff|/2",
+      "UNRECONCILED_DISCREPANCY: net discrepancy of 200.00"
+    ]
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": "sign_inversion",
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "bank_name": "Barclays Bank UK",
+    "account_number": "************8821",
+    "statement_period_start": "2026-03-01",
+    "statement_period_end": "2026-03-31",
+    "starting_balance": "1500.00",
+    "ending_balance": "3373.60",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-03-02",
+      "payee": "BACS Transfer Salary",
+      "type": "credit",
+      "amount": "1950.00",
+      "category": "Income / Payroll",
+      "running_balance": "3450.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-03-10",
+      "payee": "Sainsbury's Supermarket",
+      "type": "debit",
+      "amount": "76.40",
+      "category": "Groceries",
+      "running_balance": "3373.60",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "1500.00",
+    "total_credits": "1950.00",
+    "total_debits": "76.40",
+    "net_cashflow": "1873.60",
+    "calculated_ending_balance": "3373.60",
+    "reported_ending_balance": "3373.60",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "jpeg",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 2.5,
+    "has_noise": true
+  }
+}

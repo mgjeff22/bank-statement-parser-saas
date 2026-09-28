@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "Capital One 360 Checking",
+    "account_number": "************9914",
+    "statement_period_start": "2026-06-01",
+    "statement_period_end": "2026-06-30",
+    "starting_balance": "1890.50",
+    "ending_balance": "1760.25",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-06-02",
+      "payee": "Interest Paid",
+      "type": "credit",
+      "amount": "12.45",
+      "category": "Income / Payroll",
+      "running_balance": "1902.95",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-06-11",
+      "payee": "Uber Technologies Ride",
+      "type": "debit",
+      "amount": "27.80",
+      "category": "Travel & Transportation",
+      "running_balance": "1875.15",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-06-19",
+      "payee": "Whole Foods Market",
+      "type": "debit",
+      "amount": "114.90",
+      "category": "Groceries",
+      "running_balance": "1760.25",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "1890.50",
+    "total_credits": "12.45",
+    "total_debits": "142.70",
+    "net_cashflow": "-130.25",
+    "calculated_ending_balance": "1760.25",
+    "reported_ending_balance": "1760.25",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "signed_single",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

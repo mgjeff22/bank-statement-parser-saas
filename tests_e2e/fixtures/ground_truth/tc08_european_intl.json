@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "BNP Paribas France",
+    "account_number": "FR7630006000011234567890189",
+    "statement_period_start": "2026-02-01",
+    "statement_period_end": "2026-02-28",
+    "starting_balance": "4500.00",
+    "ending_balance": "7485.40",
+    "currency": "EUR",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-02-05",
+      "payee": "Virement Salaire Mensuel",
+      "type": "credit",
+      "amount": "3200.00",
+      "category": "Income / Payroll",
+      "running_balance": "7700.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-02-14",
+      "payee": "Carrefour Supermarche",
+      "type": "debit",
+      "amount": "125.60",
+      "category": "Groceries",
+      "running_balance": "7574.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-02-20",
+      "payee": "SNCF Billet de Train",
+      "type": "debit",
+      "amount": "89.00",
+      "category": "Travel & Transportation",
+      "running_balance": "7485.40",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "4500.00",
+    "total_credits": "3200.00",
+    "total_debits": "214.60",
+    "net_cashflow": "2985.40",
+    "calculated_ending_balance": "7485.40",
+    "reported_ending_balance": "7485.40",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

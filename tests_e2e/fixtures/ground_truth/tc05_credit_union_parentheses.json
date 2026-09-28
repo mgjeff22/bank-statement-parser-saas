@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "Navy Federal Credit Union",
+    "account_number": "************6631",
+    "statement_period_start": "2026-05-01",
+    "statement_period_end": "2026-05-31",
+    "starting_balance": "4120.00",
+    "ending_balance": "6124.80",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-05-04",
+      "payee": "US Treasury Military Pay",
+      "type": "credit",
+      "amount": "3800.00",
+      "category": "Income / Payroll",
+      "running_balance": "7920.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-05-08",
+      "payee": "Mortgage Payment NFCU",
+      "type": "debit",
+      "amount": "1650.00",
+      "category": "Rent & Mortgage",
+      "running_balance": "6270.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-05-18",
+      "payee": "Geico Auto Insurance",
+      "type": "debit",
+      "amount": "145.20",
+      "category": "Insurance",
+      "running_balance": "6124.80",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "4120.00",
+    "total_credits": "3800.00",
+    "total_debits": "1795.20",
+    "net_cashflow": "2004.80",
+    "calculated_ending_balance": "6124.80",
+    "reported_ending_balance": "6124.80",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

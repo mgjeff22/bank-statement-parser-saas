@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "bank_name": "JPMorgan Chase Bank, N.A.",
+    "account_number": "************4921",
+    "statement_period_start": "2026-08-01",
+    "statement_period_end": "2026-08-31",
+    "starting_balance": "3450.00",
+    "ending_balance": "6141.81",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-08-02",
+      "payee": "Direct Deposit ACME Corp",
+      "type": "credit",
+      "amount": "2800.00",
+      "category": "Income / Payroll",
+      "running_balance": "6250.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-08-05",
+      "payee": "Trader Joe's Groceries",
+      "type": "debit",
+      "amount": "142.15",
+      "category": "Groceries",
+      "running_balance": "6107.85",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-08-07",
+      "payee": "Starbucks Coffee #1042",
+      "type": "debit",
+      "amount": "6.75",
+      "category": "Dining & Food",
+      "running_balance": "6101.10",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_004",
+      "date": "2026-08-12",
+      "payee": "Con Edison Electric Utility",
+      "type": "debit",
+      "amount": "94.30",
+      "category": "Utilities",
+      "running_balance": "6006.80",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_005",
+      "date": "2026-08-18",
+      "payee": "Amazon Prime Subscription",
+      "type": "debit",
+      "amount": "14.99",
+      "category": "Software & Subscriptions",
+      "running_balance": "5991.81",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_006",
+      "date": "2026-08-25",
+      "payee": "Zelle Transfer from Dave",
+      "type": "credit",
+      "amount": "150.00",
+      "category": "Transfers & Wire",
+      "running_balance": "6141.81",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "3450.00",
+    "total_credits": "2950.00",
+    "total_debits": "258.19",
+    "net_cashflow": "2691.81",
+    "calculated_ending_balance": "6141.81",
+    "reported_ending_balance": "6141.81",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

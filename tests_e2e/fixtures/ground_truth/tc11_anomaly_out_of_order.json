@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "bank_name": "U.S. Bank Retail",
+    "account_number": "************6720",
+    "statement_period_start": "2026-08-01",
+    "statement_period_end": "2026-08-31",
+    "starting_balance": "2500.00",
+    "ending_balance": "3675.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-08-02",
+      "payee": "Deposit ATM Cash",
+      "type": "credit",
+      "amount": "400.00",
+      "category": "Income / Payroll",
+      "running_balance": "2900.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-08-08",
+      "payee": "Mid-Month Wire Transfer",
+      "type": "credit",
+      "amount": "800.00",
+      "category": "Transfers & Wire",
+      "running_balance": "3700.00",
+      "has_anomaly": true,
+      "anomaly_type": "OUT_OF_ORDER_DATE"
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-08-15",
+      "payee": "Retroactive Adjustment Fee",
+      "type": "debit",
+      "amount": "25.00",
+      "category": "Bank Fees",
+      "running_balance": "3675.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "2500.00",
+    "total_credits": "1200.00",
+    "total_debits": "25.00",
+    "net_cashflow": "1175.00",
+    "calculated_ending_balance": "3675.00",
+    "reported_ending_balance": "3675.00",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": "out_of_order",
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

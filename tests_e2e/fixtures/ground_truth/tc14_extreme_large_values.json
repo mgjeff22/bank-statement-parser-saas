@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "bank_name": "Global Corporate Treasury Bank",
+    "account_number": "************7777",
+    "statement_period_start": "2026-04-01",
+    "statement_period_end": "2026-04-30",
+    "starting_balance": "500000000.00",
+    "ending_balance": "624999999.50",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-04-05",
+      "payee": "Syndicated Loan Liquidity Draw",
+      "type": "credit",
+      "amount": "250000000.00",
+      "category": "Income / Payroll",
+      "running_balance": "750000000.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-04-18",
+      "payee": "Corporate Dividend Distribution",
+      "type": "debit",
+      "amount": "125000000.50",
+      "category": "Miscellaneous",
+      "running_balance": "624999999.50",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "500000000.00",
+    "total_credits": "250000000.00",
+    "total_debits": "125000000.50",
+    "net_cashflow": "124999999.50",
+    "calculated_ending_balance": "624999999.50",
+    "reported_ending_balance": "624999999.50",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}

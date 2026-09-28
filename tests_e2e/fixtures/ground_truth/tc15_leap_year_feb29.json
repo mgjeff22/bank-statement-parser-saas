@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "bank_name": "Federal Reserve Credit Union",
+    "account_number": "************2929",
+    "statement_period_start": "2028-02-01",
+    "statement_period_end": "2028-02-29",
+    "starting_balance": "3500.00",
+    "ending_balance": "4415.00",
+    "currency": "USD",
+    "page_count": 1
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2028-02-14",
+      "payee": "Valentine Florist Purchase",
+      "type": "debit",
+      "amount": "85.00",
+      "category": "Dining & Food",
+      "running_balance": "3415.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    },
+    {
+      "id": "tx_002",
+      "date": "2028-02-29",
+      "payee": "Leap Day Special Bonus Payroll",
+      "type": "credit",
+      "amount": "1000.00",
+      "category": "Income / Payroll",
+      "running_balance": "4415.00",
+      "has_anomaly": false,
+      "anomaly_type": null
+    }
+  ],
+  "reconciliation": {
+    "starting_balance": "3500.00",
+    "total_credits": "1000.00",
+    "total_debits": "85.00",
+    "net_cashflow": "915.00",
+    "calculated_ending_balance": "4415.00",
+    "reported_ending_balance": "4415.00",
+    "discrepancy": "0.00",
+    "is_reconciled": true,
+    "diagnostic_flags": []
+  },
+  "generator_spec": {
+    "format_type": "digital_pdf",
+    "layout_style": "standard_table",
+    "injected_anomaly": null,
+    "skew_angle": 0.0,
+    "has_noise": false
+  }
+}
